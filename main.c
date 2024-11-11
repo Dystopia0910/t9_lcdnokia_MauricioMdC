@@ -31,6 +31,7 @@ int main(void)
 	// Inicialización del PIT
 	PIT_init();
 
+
 	// Contadores y dirección base de la memoria de imágenes
 	uint8_t img_index = 0U;
 	uint16_t byte_pos = 0U;

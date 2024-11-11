@@ -18,7 +18,7 @@
 #include "stdint.h"
 
 /* Definiciones de memoria */
-#define MEMORY_BASE_ADDR    0x40000U
+#define BASE_ADDR_MEMORY    0x40000U
 #define MEM_READ_CMD        0x03U
 #define SHIFT_TWO_BYTES     16U
 #define SHIFT_ONE_BYTE      8U
